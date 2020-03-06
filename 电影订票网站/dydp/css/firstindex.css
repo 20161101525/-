@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, ul, li, ol, p, h1, h2, h3, h4, h5, h6, form,input,img { margin:0; padding:0;}
+li{
+	list-style:none;}
+h1,h2,h3,h4,h5,h6{
+	font-size: 100%;
+	font-weight: normal;
+}
+a{
+	color:#3333; 
+	text-decoration:none;}  
+a:hover{
+	color:#f40; 
+	text-decoration:underline;}
+body{ font-size:14px;}
+.wrap{
+	width:1035px; 
+	margin:0  auto;}
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;}
+/*初始化*
+
+/*两大模块样式开始*/
+.ldmk{
+	height:90px;
+	}
+.ldmk ul{}
+.ldmk ul li{
+	height:60px;
+	width:150px;
+	float:left;
+	box-shadow:-7px 7px 2px #CCCCCC;}
+.ldmk ul li:first-child{
+	background:orange;}
+.ldmk ul li:nth-child(2){
+	background:#F66;
+	margin:0 100px 0 100px;}
+.ldmk ul li a{
+	display:block;
+	height:300px;
+	width:250px;}
+.ldmk ul li a:hover{
+	text-decoration:none;}
+.ldmk ul li a h2:first-child{
+	font-size:26px;
+	color:#FFF;
+	padding:20px 20px 0 20px;}
+.ldmk ul li a h2:nth-child(2){
+	font-size:26px;
+	color:#FFF;
+	padding:20px 20px 0 20px;
+	}
+
+/*两大模块样式结束*/
+
+/*步骤样式开始*/
+div{overflow:hidden;}
+.bz{
+	width:180px;
+	float:right;
+	height:450px;
+	background:#EBEBEB;
+	padding-top:7px;
+	box-shadow:-4px 4px 2px #CCCCCC;
+	}
+.bz ul{margin:7px 0 0 20px;}
+.bz ul h2{
+	font-size:18px;
+	color:#c8009e;}
+.bz ul li{
+	font-size:16px;
+	margin-top:15px;
+	border-bottom:#D7D7D7 dotted 3px;
+	background:url(../img/16.png) no-repeat left center;
+	padding-left:7px;}
+.bz ul li a:hover{
+	text-decoration:none;}
+
+/*步骤样式结束*/
+
+/*三大排行样式开始*/
+.list{
+	width:845px;
+	height:454px;
+	float:left;
+	background:#EAEAEA;
+	}
+.list li{
+	height:136px;
+	margin-bottom:20px;}
+.list li img{
+	float:left;
+	margin-right:20px;}
+.list li a:hover{
+	text-decoration:none;}
+.list li p{
+	font-size:17px;}
+.list li span{
+	font-size:16px;
+	color:#666;}
+/*三大排行样式结束*/
