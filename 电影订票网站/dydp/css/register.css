@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+div{list-style: none;}
+			*{margin: 0;padding:4; color:#000;}
+			ul{
+				list-style: none;
+			}
+			a{
+				text-decoration: none;
+				margin-top:0;
+			}
+			.aa{
+				width:1350px;
+				height:580px;
+				background:url(img/0.jpg) center no-repeat;
+			}
+			#nav ul{
+				width: 1300px;
+				height: 50px;
+				border: 1px solid red;
+				margin: 0 auto;
+			}
+			#nav ul li{
+				width: 14.285%;
+				line-height: 50px;
+				float: left;
+				text-align: center;
+			}
+			#nav ul li a{
+				display: block;
+				background: black;
+				color: deepskyblue;
+				font-weight: bold;
+			}
+			#nav ul li a:hover{
+				background: white;
+				color: deeppink;
+			}
+			.two ul{
+				height:25%;
+				width: 150px;
+				height: 400px;
+				border: 1px solid pink;
+				margin: 0 30px;
+			}
+			.two ul li{
+				line-height: 100px;
+				float: center;
+				text-align: center;
+			}
+			.two ul li a{
+				display: block;
+				background:deepskyblue;
+				color: black;
+				font-weight: bold;
+			}
+			.two ul li a:hover{
+				background: white;
+				color: deeppink;
+			}
+			.too{
+				width:1300px;
+				height:100px;
+			}
+			.too img{
+				width:1350px;
+				height:100px;
+			}
+			.three{
+			}
+			.three p{
+				font-size:25px;
+				font-weight:bold;
+				margin-bottom:auto;
+			}
+			input[type="text"]{
+				width:210px;
+				height:30px;
+			}
+			input[type="password"]{
+		       	width:210px;
+		       	height:30px;
+		       }
+			 input[type="submit"]{
+		        float: left;
+		       	margin:0px 80px;
+				box-shadow:#CCC;
+		       	font-size: 15px;
+		       	background:#06F;
+				border-radius:13px;
+		       	width:80px;
+		       	height:30px;
+		 	 }
+			 input[type="reset"]{
+		        float: left;
+		       	margin:0px 20px;
+				box-shadow:#CCC;
+		       	font-size: 15px;
+		       	background:#06F;
+				border-radius:13px;
+		       	width:80px;
+		       	height:30px;
+		 	 }
+			  input[type="radio"]{
+		       	font-size: 10px;
+		       	border:none;
+		       	width:50px;
+		       	height:20px;
+		       	color:#C96;
+		       	border-radius: 70%;
+		       }
